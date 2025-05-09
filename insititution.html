@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Institution</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2c6e5b6e1.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4 fixed w-full z-10">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Institution</h1>
+      <div class="space-x-4">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#notices" class="hover:text-blue-600">Notices</a>
+        <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+        <a href="#login" class="hover:text-blue-600">Login</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-400 text-white" id="home">
+    <div class="text-center px-4" data-aos="fade-up">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Our Institution</h1>
+      <p class="text-lg md:text-xl">Learning. Growing. Leading the Future.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-16 bg-white" id="about">
+    <div class="container mx-auto px-4" data-aos="fade-right">
+      <h2 class="text-3xl font-bold mb-4 text-center">About Us</h2>
+      <p class="text-center max-w-2xl mx-auto">
+        Our Institution provides a nurturing environment for students to grow intellectually and socially. We believe in holistic education that develops character, critical thinking, and a love of learning.
+      </p>
+    </div>
+  </section>
+
+  <!-- Notice Board -->
+  <section class="py-16 bg-gray-50" id="notices">
+    <div class="container mx-auto px-4" data-aos="fade-left">
+      <h2 class="text-3xl font-bold mb-6 text-center">Notice Board</h2>
+      <ul class="space-y-3 max-w-xl mx-auto">
+        <li class="bg-white p-4 shadow rounded">📢 Admission open for 2025-26 session</li>
+        <li class="bg-white p-4 shadow rounded">📅 PT-1 Exams start from May 10</li>
+        <li class="bg-white p-4 shadow rounded">📂 Download updated syllabus from the gallery</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="py-16 bg-white" id="gallery">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-6 text-center">Photo Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://via.placeholder.com/300x200" class="rounded shadow" alt="Gallery 1">
+        <img src="https://via.placeholder.com/300x200" class="rounded shadow" alt="Gallery 2">
+        <img src="https://via.placeholder.com/300x200" class="rounded shadow" alt="Gallery 3">
+        <img src="https://via.placeholder.com/300x200" class="rounded shadow" alt="Gallery 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section class="py-16 bg-gray-100" id="login">
+    <div class="container mx-auto px-4" data-aos="fade-up">
+      <h2 class="text-3xl font-bold mb-6 text-center">Login</h2>
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+        <!-- Student Login -->
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-4">Student Login</h3>
+          <input type="text" placeholder="Student ID" class="w-full mb-3 p-2 border rounded" />
+          <input type="password" placeholder="Password" class="w-full mb-3 p-2 border rounded" />
+          <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Login</button>
+        </div>
+
+        <!-- Teacher Login -->
+        <div class="bg-white p-6 rounded shadow">
+          <h3 class="text-xl font-semibold mb-4">Teacher Login</h3>
+          <input type="text" placeholder="Teacher ID" class="w-full mb-3 p-2 border rounded" />
+          <input type="password" placeholder="Password" class="w-full mb-3 p-2 border rounded" />
+          <button class="bg-teal-500 text-white px-4 py-2 rounded hover:bg-teal-600">Login</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-16 bg-white" id="contact">
+    <div class="container mx-auto px-4" data-aos="fade-in">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Us</h2>
+      <div class="text-center">
+        <p><i class="fas fa-phone-alt mr-2 text-blue-500"></i>+91 98765 43210</p>
+        <p><i class="fas fa-envelope mr-2 text-blue-500"></i>info@institution.com</p>
+        <p><i class="fas fa-map-marker-alt mr-2 text-blue-500"></i>123 Learning Lane, City, Country</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2025 Institution. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
